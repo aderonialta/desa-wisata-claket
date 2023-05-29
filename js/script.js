@@ -25,3 +25,8 @@ document.addEventListener("click", function (e) {
     navbarNav.classList.remove("active");
   }
 });
+
+// menghilangkan navbar saat klik navbar dalam hamburger menu
+document.querySelector(".navbar-nav").onclick = () => {
+  navbarNav.classList.remove("active");
+};
